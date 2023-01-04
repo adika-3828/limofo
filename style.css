@@ -5,9 +5,14 @@ body{
 
 .intro{
   margin : auto;
+  margin-bottom: 80px;
 }
 
 p{
   padding-left: 330px;
   padding-right: 330px
+}
+
+div{
+  margin-bottom: 80px;
 }
