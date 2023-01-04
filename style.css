@@ -9,10 +9,14 @@ body{
 }
 
 p{
-  padding-left: 330px;
-  padding-right: 330px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 div{
   margin-bottom: 80px;
+}
+
+.mapouter{
+  margin: auto;
 }
