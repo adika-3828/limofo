@@ -25,7 +25,7 @@ div{
 
 .mapouter{
   position: relative;
-  right : 39%;
+  right : 35%;
   margin-bottom: 8%;
 }
 
@@ -159,4 +159,29 @@ h2{
 
 .ui{
   padding-top: 0;
+}
+
+@media screen and (max-width: 900px){
+
+.mapouter{
+  position: relative;
+  right : 60%;
+  margin-bottom: 8%;
+}
+
+#bukpel img{
+  height: 70%;
+}
+
+.sda p{
+  position: relative;
+  left: 20%;
+  color: black;
+}
+
+.pot p{
+  position: relative;
+  left: 20%;
+}
+
 }
