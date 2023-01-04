@@ -161,7 +161,10 @@ h2{
   padding-top: 0;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
+/* body{
+  background-color: black;
+} */
 .mapouter{
   position: relative;
   right : 70%;
