@@ -1,22 +1,169 @@
 body{
-  text-align: center;
   background-color: #f6f6e9;
+  text-align: center;
 }
 
 .intro{
   margin : auto;
-  margin-bottom: 80px;
+  margin-top: 0;
 }
 
 p{
-  padding-left: 20%;
-  padding-right: 20%;
+}
+
+.begaganlimo{
+  background-color: #cbddd1;
 }
 
 div{
-  margin-bottom: 80px;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+
 }
 
 .mapouter{
+  text-align: center;
   margin: auto;
+  padding-left: 0;
+  padding-top: 0;
+  margin-bottom: 8%;
+}
+
+.gmap_canvas{
+  padding-left: 0;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lokasi{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h4{
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+h5{
+  font-size: 80%;
+}
+
+.potensi_desa p{
+  text-align: left;
+}
+
+.begaganlimo{
+  margin-bottom: 40px;
+}
+
+h2{
+  margin-bottom: 40px;
+}
+.container{
+  margin-bottom: 3%;
+  padding-top: 0;
+}
+.row{
+  padding: 0;
+  margin-bottom: 5%;
+}
+.sda{
+  display: inline-block;
+  width: 170px;
+  height: 150px;
+  margin-right: 5%;
+  padding-top: 0;
+}
+
+.pot{
+  display: inline-block;
+  width: 170px;
+  height: 150px;
+  margin-right: 5%;
+  padding-top: 0;
+}
+
+.pot img{
+  border-radius: 20px;
+}
+
+.last{
+  margin-right: 5%;
+}
+
+#other{
+  position: relative;
+  top: 2%;
+  left: 7%;;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.sda p{
+  position: relative;
+  left: 25%;
+  color: black;
+}
+
+.sda img{
+  width: 203px;
+  height: 135px;
+  border-radius: 20px;
+}
+
+.daun p{
+  position: relative;
+  left:5%;
+}
+
+.pot p{
+  position: relative;
+  left: 29%;
+  top: 0;
+  bottom: 100%;
+}
+
+.potensi_desa h3{
+  margin-bottom: 15%;
+}
+
+.fitur{
+  background-color: #457d58;
+  color: #f6f6e9;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.fitur p{
+  text-align: left;
+}
+
+#carouselExampleIndicators{
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.carousel-item{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.carousel-inner{
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ui{
+  padding-top: 0;
 }

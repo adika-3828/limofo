@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>LIMOFO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
     <div class="intro">
-      <img src="LIMOFO.png" alt="logo_limofo" width="400" height="400">
+      <img src="LIMOFO.png" class="logo" alt="logo_limofo" width="400" height="400" text-align="center">
       <p>LIMOFO adalah sebuah aplikasi yang berperan dalam menghimpun potensi Desa
 Begaganlimo sebagai desa wisata serta memberikan edukasi lingkungan dengan pemanfaatan
 Web 3.0. Web 3 merupakan generasi ketiga dari jaringan internet di mana antara pengguna
@@ -19,7 +21,7 @@ perantara dari pihak ketiga (trustless) dan tidak membutuhkan izin otoritas tert
     <div class="begaganlimo">
       <h2>Pengenalan Desa</h2>
       <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=desa%20begaganlimo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:500px;}</style><a href="https://www.embedgooglemap.net">google map for my website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}</style></div></div>
-      <h5>Desa Begaganlimo, Kabupaten Mojokerto, Jawa Timur</h5>
+      <h5 class="lokasi">Desa Begaganlimo, Kabupaten Mojokerto, Jawa Timur</h5>
       <p>Desa Begaganlimo merupakan sebuah desa yang terletak pada Kecamatan Gondang,
 Kabupaten Mojokerto, Jawa Timur. Desa ini memiliki luas wilayah 1,30 km2 dengan jumlah
 penduduk sebanyak 585 jiwa</p>
@@ -31,29 +33,146 @@ menambah sumber pendapatan mereka</p>
     <div class="potensi_desa">
       <h3>Potensi Desa Begaganlimo</h3>
       <h4>Potensi Wisata</h4>
-      <p>Akar seribu</p>
-      <p>Bukit Pelangi</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm pot">
+            <img src="akar.jpg" alt="akar seribu" width='100%'>
+            <p>Akar seribu</p>
+          </div>
+
+          <div id="tani" class="col-sm pot">
+            <img src="bukpel.png" alt="bukit pelangi" width='100%' height="134px">
+            <p>Bukit Pelangi</p>
+          </div>
+        </div>
+      </div>
+
 
       <h4>Potensi Sumber Daya Alam Hutan</h4>
-      <p>Buah-buahan</p>
-      <p>Hasil pertanian</p>
-      <p>Madu hutan</p>
-      <p>Daun kuda liar untuk obat</p>
-      <p>Bambu, Bonsai, dan tanaman-tanaman lainnya yang dapat dijual melalui pemasaran nasional</p>
+      <div class="container">
+    <div class="row">
+      <div id="buah" class="col-sm sda">
+        <img src="buah.jpg" alt="buahbuahan" width='100%'>
+        <p>Buah-buahan</p>
+      </div>
+
+      <div id="tani" class="col-sm sda">
+        <img src="tani.jpg" alt="hasil tani" width='100%'>
+        <p>Hasil pertanian</p>
+      </div>
     </div>
+
+    <div class="row">
+      <div id="madu" class="col-sm sda">
+        <img src="madu.jpg" alt="madu hutan" width='100%'>
+        <p>Madu hutan</p>
+      </div>
+
+      <div id="daun" class="col-sm sda daun">
+        <img src="daun.jpg" alt="madu hutan" width='100%'>
+        <p>Daun kuda liar untuk obat</p>
+      </div>
+      </div>
+
+      <div class="row">
+        <div id="lainnya" class="col-sm sda last">
+          <img src="bambu.jpg" alt="bambu" width='100%'>
+            <p id="other">Bambu, Bonsai, dan tanaman-tanaman lainnya yang dapat dijual melalui pemasaran nasional</p>
+          </div>
+        </div>
+    </div>
+  </div>
     <div class="fitur">
       <h2>Fitur Aplikasi LIMOFO</h2>
-      <h4>Green-Edu (Green Education)</h4>
-      <p>Fitur edukasi penghijauan yang terdapat dua pilihan yaitu workshop atau webinar dan pameran mengenai pelatihan budidaya tanaman yang terdapat di hutan Desa Begaganlimo dan tempat wisata yang wajib dikunjungi di Desa Begaganlimo</p>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div id="GU" class="col-md">
+          <h4>Green-Edu (Green Education)</h4>
+          <p>Fitur edukasi penghijauan yang terdapat dua pilihan yaitu workshop atau webinar dan pameran mengenai pelatihan budidaya tanaman yang terdapat di hutan Desa Begaganlimo dan tempat wisata yang wajib dikunjungi di Desa Begaganlimo</p>
+        </div>
 
+        <div id="UIGU1" class="col-sm ui">
+          <img src="GU1.png" class="d-block w-100">
+        </div>
+        <div id="UIGU2" class="col-sm ui">
+          <img src="GU2.png" class="d-block w-100">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <div class="row">
+      <div id="F" class="col-md">
       <h4>Forestation (Forest Station)</h4>
       <p>Fitur yang hadir sebagai wadah bagi pengunjung desa wisata dan edukasi Desa Begaganlimo untuk menuangkan kesan pesan.</p>
+      </div>
 
+      <div id="UIF1" class="col-sm ui">
+        <img src="F1.png" class="d-block w-100">
+      </div>
+      <div id="UIF2" class="col-sm ui">
+        <img src="F2.png" class="d-block w-100">
+      </div>
+    </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <div class="row">
+      <div id="CSR" class="col-md">
       <h4>Forest-CSR</h4>
       <p>Wadah bagi para pegiat lingkungan sukarela untuk bergabung bersama komunitas peduli lingkungan dari Desa Begaganlimo dalam menjaga hutan desa melalui program pengajuan CSR (Corporate Social Responsibility)</p>
+    </div>
 
+    <div id="UICSR1" class="col-sm ui">
+      <img src="CSR1.png" class="d-block w-100">
+    </div>
+    <div id="UICSR2" class="col-sm ui">
+      <img src="CSR2.png" class="d-block w-100">
+    </div>
+    </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <div class="row">
+      <div id="ADP" class="col-md">
       <h4>Adoptree</h4>
       <p>Wadah kontribusi dalam penanaman pohon.</p>
+      </div>
+
+      <div id="UIADP1" class="col-sm ui">
+        <img src="ADP1.png" class="d-block w-100">
+      </div>
+      <div id="UIADP2" class="col-sm ui">
+        <img src="ADP2.png" class="d-block w-100">
+      </div>
+
     </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javas.js" charset="utf-8"></script>
   </body>
 </html>
