@@ -1,0 +1,13 @@
+body{
+  text-align: center;
+  background-color: #f6f6e9
+}
+
+.intro{
+  margin : auto;
+}
+
+p{
+  padding-left: 330px;
+  padding-right: 330px
+}
