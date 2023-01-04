@@ -162,7 +162,6 @@ h2{
 }
 
 @media screen and (max-width: 900px){
-
 .mapouter{
   position: relative;
   right : 60%;
@@ -183,5 +182,21 @@ h2{
   position: relative;
   left: 20%;
 }
+
+}
+
+
+@media screen and (max-width: 700px){
+
+.mapouter{
+  position: relative;
+  right : 100%;
+  margin-bottom: 8%;
+}
+
+#bukpel img{
+  height: 40%;
+}
+
 
 }
