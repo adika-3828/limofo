@@ -8,7 +8,8 @@ body{
   margin-top: 0;
 }
 
-p{
+.intro p{
+  text-align: justify;
 }
 
 .begaganlimo{
@@ -67,7 +68,7 @@ h2{
 }
 .row{
   padding: 0;
-  margin-bottom: 5%;
+  margin-bottom: 0;
 }
 .sda{
   display: inline-block;
@@ -148,6 +149,7 @@ h2{
   padding-right: 0;
   padding-left: 0;
   padding-bottom: 0;
+  padding-top: 5%;
 }
 
 .carousel-inner{
@@ -159,8 +161,18 @@ h2{
 
 .ui{
   padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  height: 70%;
 }
 
+.ui img{
+  width: 70%
+}
+
+.textcar{
+  padding: 0 0 0;
+}
 @media screen and (max-width: 1000px){
 /* body{
   background-color: black;
