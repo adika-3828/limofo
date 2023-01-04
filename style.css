@@ -24,16 +24,11 @@ div{
 }
 
 .mapouter{
-  text-align: center;
-  margin: auto;
-  padding-left: 0;
-  padding-top: 0;
+  position: relative;
+  right : 35%;
   margin-bottom: 8%;
 }
 
-.gmap_canvas{
-  padding-left: 0;
-}
 
 .logo{
   display: block;
